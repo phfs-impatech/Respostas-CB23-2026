@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <>
+     <Restaurante+ nome: str+ endereco: str+ telefone: str+ cardapio: Cardapio>
+         <Pizzaria+ rodizio: bool></Pizzaria+ rodizio: bool>
+     </Restaurante+ nome: str+ endereco: str+ telefone: str+ cardapio: Cardapio>
+     <Cardapio-item do cardápio-+nome: str-+preco: float-+produto: type-+receita: dict></Cardapio-item do cardápio-+nome: str-+preco: float-+produto: type-+receita: dict>
+     <Iguaria (comida)+ nome: str>
+         <Pizza+ borda_rechada: bool></Pizza+ borda_rechada: bool>
+         <Bolo+ formato: str></Bolo+ formato: str>
+     </Iguaria (comida)+ nome: str>
+     <Pessoa+ nome:str+ idade:int>
+         <Funcionário+ salario: float+ carga_horaria: int>
+             <Garçom+ anotar_pedido(argumento1)></Garçom+ anotar_pedido(argumento1)>
+             <Gerente+ demitir(argumento3)></Gerente+ demitir(argumento3)>
+             <Chefe de cozinha+ preparar(argumento2)></Chefe de cozinha+ preparar(argumento2)>
+         </Funcionário+ salario: float+ carga_horaria: int>
+     </Pessoa+ nome:str+ idade:int>
+     </></root>
